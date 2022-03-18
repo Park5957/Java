@@ -1,4 +1,4 @@
-package ppm;
+package pm10;
 
 public class Game369 {
     public static void main(String[] args) {
@@ -12,17 +12,17 @@ public class Game369 {
 
                 if (i2 == 3 || i2 == 6 || i2 == 9) {
                     if (i3 == 3 || i3 == 6 || i3 == 9) {
-                        a = "¦¦";
+                        a = "짝짝";
                     } else {
-                        a = "¦";
+                        a = "짝";
 
                     }
 
                 } else if (i3 == 3 || i3 == 6 || i3 == 9) {
-                    a = "¦";
+                    a = "짝";
                 }
             } else if (i < 10 && i % 3 == 0) {
-                a = "¦";
+                a = "짝";
             }
 
             System.out.print(a + "\t");
@@ -36,3 +36,4 @@ public class Game369 {
 
     }
 }
+
