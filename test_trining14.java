@@ -1,5 +1,6 @@
 package pm10;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -17,6 +18,7 @@ public class test_trining14 {
 		
 //		HW03
 		Gu hw3 = new Gu();
+		hw3.gugu();
 		
 //		HW04
 		Si s = new Si();
@@ -112,9 +114,19 @@ class Meth {
 class Gu {
 	int[][] a = {{1,2,3},{2,3,1},{3,1,2},{2,1,3}};
 	int[][] b = {{4,3,2,1},{3,2,1,4},{2,1,4,3}};
-
+	int c[][] = new int [4][4];
+	
 	void gugu() {
-		System.out.println("지문을 이해하지 못했음.");
+		for(int i = 0; i<4; i++) {
+			for(int j = 0; j<4; j++) {
+				c[i][j] =0;
+				for(int k = 0; k<3; k++) {
+					c[i][j] = a[i][k]*b[k][j];
+				}
+				
+			}
+			
+		}System.out.println(Arrays.deepToString(c));
 	}
 }
 
