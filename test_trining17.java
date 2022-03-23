@@ -9,20 +9,20 @@ public class test_trining17 {
 
 	public static void main(String[] args) {
 		// HW01
-//		HW hw01 = new HW();
-//		hw01.HW01_indexdel();
+		HW hw01 = new HW();
+		hw01.HW01_indexdel();
 
 //		HW02
-//		HW hw02 = new HW();
-//		hw02.HW02_aryRmv();
+		HW hw02 = new HW();
+		hw02.HW02_aryRmv();
 
 //		HW03
-//		HW hw03 = new HW();
-//		hw03.HW03_aryIns();
+		HW hw03 = new HW();
+		hw03.HW03_aryIns();
 
 //		HW04
-//		HW hw04 = new HW();
-//		hw04.HW04_aryExchng();
+		HW hw04 = new HW();
+		hw04.HW04_aryExchng();
 
 //		HW05
 		HW hw05 = new HW();
