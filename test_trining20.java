@@ -59,13 +59,10 @@ public class test_trining20 {
 			if (Arrays.asList(mapg).contains(maping[i])) {
 				continue;
 			}else {
-				if (i > 0) {
+				
 				System.out.println("잘못 입력 했습니다.");
-				i--;}
-				else {
-					System.out.println("잘못 입력 했습니다.");
-					i = 0;
-				}
+				i--;
+				
 			}
 		}
 		
