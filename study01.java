@@ -42,17 +42,19 @@ class Kill {
 		for (int i = 1; i < n + 1; i++) {
 			svc.add(i);
 		} // 원형배치 리스트 생성
+		
+		int k2=0+k;
 
 
 		while (svc.size() != 1) {
 
-			if (k <= svc.size()) {
-				System.out.println(svc.get(k - 1) + "번 째 군사가 죽습니다.");
-				svc.remove(k - 1);
-				k = k + k - 1;
+			if (k2 <= svc.size()) {
+				System.out.println(svc.get(k2 - 1) + "번 째 군사가 죽습니다.");
+				svc.remove(k2 - 1);
+				k2 = k2 + k - 1;
 
 			} else {
-				k = k - svc.size();
+				k2 = k2 - svc.size();
 
 			}
 		}
