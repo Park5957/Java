@@ -33,7 +33,7 @@ public class study01 {
 }
 
 class Kill {
-	Scanner sc = new Scanner(System.in);
+
 
 	void K(int n, int k) {
 
@@ -42,7 +42,7 @@ class Kill {
 		for (int i = 1; i < n + 1; i++) {
 			svc.add(i);
 		} // 원형배치 리스트 생성
-		System.out.println(n + ":" + k);
+
 
 		while (svc.size() != 1) {
 
